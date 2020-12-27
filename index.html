@@ -3,7 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/Style/main.css">
+        <link rel="stylesheet" href="Style/main.css">
+
+        <!--responsividade-->
+        <link rel="stylesheet" href="Style/responsivo.css">
+
+
+        <!--owl css-->
+        <link rel="stylesheet" href="Style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="Style/owl/owl.theme.default.min.css">
+        
         <title>NETFLIX CLONE 2</title>
          
     </head>
@@ -20,8 +29,43 @@
             </div>
         </header>
 
+        <main>
+            <div class="filme-principal" style="background-image: url(Recursos/Capa.jpg);">
+                <div class="container">
+                    <h3 class="titulo">O GAMBITO DA RAINHA</h3>
+                    <p class="descricao">Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.</p>
+                </div>
+                <div class="botoes">
+                <button role="button" class="botao" onclick="botao()">
+                    <i class="fas fa-play"></i>
+                    Assistir Agora
+                </button>
+                <button role="button" class="botao">
+                    <i class="fas fa-info-circle"></i>
+                    Mais Informações
+                </button>
+                </div>
+
+            </div>
 
 
+        </main>
+
+            <div class="carrosel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><h4><img src="Recursos/Lucifer.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/Mulan.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/mulherMaravilha.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/Simpson.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/Vozes.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/BobEsponja.jpg" alt=""></h4></div>
+                    <div class="item"><h4><img src="Recursos/TheCrown.jpg" alt=""></h4></div>
+            </div>
+
+        <script src="https://kit.fontawesome.com/18cb967ea5.js" crossorigin="anonymous"></script>
+        <script src="javascript/owl/jquery.min.js"></script>
+        <script src="javascript/owl/owl.carousel.min.js"></script>
+        <script src="javascript/owl/main.js"></script>
     </body>
     
 
